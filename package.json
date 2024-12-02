@@ -1,0 +1,19 @@
+{
+  "name": "assign3-css-precompiler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch styles.scss:styles.css",
+    "start": "lite-server"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.77.6"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
